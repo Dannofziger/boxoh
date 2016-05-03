@@ -1,0 +1,11 @@
+/*
+@-webkit-keyframes blinds {
+	0% {height: 100%;}
+	50% {height: 60%;}
+	100% {height: 10%;}
+}*/
+#image {
+	position: relative;
+	-webkit-animation: blinds 2s 1 linear;
+	-webkit-animation-fill-mode: forwards;
+}

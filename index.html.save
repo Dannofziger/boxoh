@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Boxoh | Package Tracking</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.js"></script>
+	<script src="js/formHandler.js"></script>	
+</head>
+
+<body ng-app="websiteApp">
+<form ng-submit="submitForm()" ng-controller="FormController" novalidate>
+	<label for="trackField">Tracking Number</label>
+	<input type="text" name="trackNum" ng-model="formData.trackNum" ng-class="{'error' : errorName}">
+	<input type="submit" value="Find Me!" name="submit">
+	<div ng-class="{'submissionMessage' : submission}" ng-bind="submissionMessage"></div>
+</form>
+</body>
+</html>

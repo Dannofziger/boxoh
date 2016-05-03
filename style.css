@@ -1,0 +1,94 @@
+html {
+	background-color: #f2f2f2;
+}
+body {
+	background-color: inherit;
+}
+.jumbotron {
+	background-color: #d9d9d9;
+}
+#navstart {
+	background-color: #b5ccda;
+}
+#navbar {
+	vertical-align: center;
+}
+#boxohlogo {
+	width: 35px;
+	height: 35px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-left: 15px;
+}
+#collapsedbutton {
+	color: #fff;
+	background-color: #337ab7;
+	border-color: #2e6da4;
+}
+#collapsedbutton:hover {
+	color: #fff;
+	background-color: #286090;
+	border-color: #204d74;
+}
+#loginbutton {
+	border-radius: 1px;
+}
+#loginbutton:hover:after{
+	content: attr(data-hover);
+	text-decoration: underline;
+}
+#trackform {
+
+}
+#enterInfo {
+	display: block;
+	font-size: 25px;
+	text-align: center;
+}
+#textBox {
+	margin: 10px;
+}
+#submit {
+	margin: auto;
+	border-radius: 1px;
+}
+#bomap_canvas {
+	margin: auto;
+	width: 100%;
+	height: 75%;
+}
+#bomap_canvas div {
+	/*text within bubble*/
+}
+#bomap_canvas div b {
+	/*city text*/
+}
+#twitter_button {
+	height: 35px;
+	width: 35px;
+}
+#bodycontainer {
+	height: 100%;
+}
+#maincol {
+	height: 600px;
+}
+#historycol {
+	height: 600px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+#historycol div {
+	margin-top: 5px
+}
+input[type=radio] {
+	display: none;
+}
+#labelhistory {
+	font-size: 25px;
+	display: block;
+	text-align: center;
+}
+.bottom-border {
+	border-bottom: solid #b5ccda;
+}
